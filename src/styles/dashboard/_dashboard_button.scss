@@ -1,0 +1,27 @@
+@import '../shared/variables';
+
+a.dashboard-button {
+  width: 20%;
+  background-color: $primary-light;
+  color: $off-white;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid $primary-light;
+  transition: border 0.2s, color 0.2s;
+
+  .button-icon {
+    font-size: 56px;
+    margin: 30px 10px 10px;
+  }
+
+  .button-text {
+    padding: 10px 4px 20px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+}
+
+a.dashboard-button:hover {
+  //background-color: $primary-xlight;
+  border: 1px solid $accent;
+}

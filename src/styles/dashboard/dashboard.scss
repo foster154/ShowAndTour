@@ -1,0 +1,12 @@
+@import '../shared/variables';
+
+.dashboard-wrapper {
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 96%;
+
+  .dashboard-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}

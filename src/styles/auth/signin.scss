@@ -1,0 +1,35 @@
+@import '../shared/variables';
+
+.signin-background {
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: auto;
+  height: auto;
+  background-color: $primary;
+
+  h1 {
+    text-align: center;
+    margin: 50px;
+  }
+
+  form {
+    width: 400px;
+    max-width: 96%;
+    margin: 0 auto;
+
+    button {
+      margin: 210px auto 0;
+      display: block;
+    }
+  }
+
+  .signup-text {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+    color: $off-white;
+  }
+}
